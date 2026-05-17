@@ -1,0 +1,480 @@
+{
+  "info": {
+    "_postman_id": "0fef117f-d10e-46c1-8064-0b9c3f94d935",
+    "name": "PRUEBAS Envio",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "29078882"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "este flujo muestra todo la vida del servicio de envio como su crecion,validacion,editar,elimi,listar",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Envio collecion",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n        \r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "13.219.97.37:8081/api/v2/envios",
+          "host": [
+            "13",
+            "219",
+            "97",
+            "37"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "v2",
+            "envios"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Envio collecion",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "13.219.97.37:8081/api/v2/envios",
+              "host": [
+                "13",
+                "219",
+                "97",
+                "37"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "v2",
+                "envios"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Sun, 17 May 2026 20:06:11 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": 3,\n        \"dirrecionenvi\": \"comuna el bosque calle los aviadores 321\",\n        \"comprador\": \"fabian rojas\",\n        \"vendedor\": \"Leonardo\",\n        \"tiendaorigen\": \"nex dimenxion\",\n        \"detalleproducto\": \"10x Pokemon TCG: Chaos Rising – Elite Trainer Box – Inglés [PREVENTA: 22/05/2026] (Case Sellado) $579.990\",\n        \"empresadeenvio\": \"Repartidor propio\"\n    },\n    {\n        \"id\": 4,\n        \"dirrecionenvi\": \"El bosque departamentos 10 \",\n        \"comprador\": \"Manuel \",\n        \"vendedor\": \"Javier\",\n        \"tiendaorigen\": \"Nex dimension\",\n        \"detalleproducto\": \"Pack xl de cartas de yu gi oh  \",\n        \"empresadeenvio\": \"Propio  \"\n    },\n    {\n        \"id\": 5,\n        \"dirrecionenvi\": \"El bosque departamentos 10 \",\n        \"comprador\": \"Manuel \",\n        \"vendedor\": \"Javier\",\n        \"tiendaorigen\": \"Nex dimension\",\n        \"detalleproducto\": \"Pack xl de cartas de yu gi oh  \",\n        \"empresadeenvio\": \"Propio  \"\n    },\n    {\n        \"id\": 6,\n        \"dirrecionenvi\": \"comuna el bosque calle los aviadores 321\",\n        \"comprador\": \"fabian rojas\",\n        \"vendedor\": \"Leonardo\",\n        \"tiendaorigen\": \"nex dimenxion\",\n        \"detalleproducto\": \"10x Pokemon TCG: Chaos Rising – Elite Trainer Box – Inglés [PREVENTA: 22/05/2026] (Case Sellado) $579.990\",\n        \"empresadeenvio\": \"Repartidor propio\"\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "Envio validation",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "13.219.97.37:8081/api/v2/envios",
+          "host": [
+            "13",
+            "219",
+            "97",
+            "37"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "v2",
+            "envios"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Envio validation",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "13.219.97.37:8081/api/v2/envios",
+              "host": [
+                "13",
+                "219",
+                "97",
+                "37"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "v2",
+                "envios"
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Sun, 17 May 2026 20:06:43 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "close"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"tiendaorigen\": \"debe ingresar una tienda de origen si el producto no es de una tienda origen Coloque tienda personal\",\n    \"comprador\": \"debe ingresar un comprador \",\n    \"dirrecionenvi\": \"la Dirrecion de envio no puede estar vacia\",\n    \"vendedor\": \"debe ingresar un vendedor\",\n    \"detalleproducto\": \"debe ingresar los dettales del producto \",\n    \"empresadeenvio\": \"debe ingresar la empresa de envio si no hay niguna colocar repartidor propio  \"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Envio agregar",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n        \"dirrecionenvi\": \"comuna el bosque calle los aviadores 321\",\r\n        \"comprador\": \"fabian rojas\",\r\n        \"vendedor\": \"Leonardo\",\r\n        \"tiendaorigen\": \"nex dimenxion\",\r\n        \"detalleproducto\": \"10x Pokemon TCG: Chaos Rising – Elite Trainer Box – Inglés [PREVENTA: 22/05/2026] (Case Sellado) $579.990\",\r\n        \"empresadeenvio\": \"Repartidor propio\"\r\n        \r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "13.219.97.37:8081/api/v2/envios",
+          "host": [
+            "13",
+            "219",
+            "97",
+            "37"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "v2",
+            "envios"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Envio agregar",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"dirrecionenvi\": \"comuna el bosque calle los aviadores 321\",\r\n        \"comprador\": \"fabian rojas\",\r\n        \"vendedor\": \"Leonardo\",\r\n        \"tiendaorigen\": \"nex dimenxion\",\r\n        \"detalleproducto\": \"10x Pokemon TCG: Chaos Rising – Elite Trainer Box – Inglés [PREVENTA: 22/05/2026] (Case Sellado) $579.990\",\r\n        \"empresadeenvio\": \"Repartidor propio\"\r\n        \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "13.219.97.37:8081/api/v2/envios",
+              "host": [
+                "13",
+                "219",
+                "97",
+                "37"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "v2",
+                "envios"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Sun, 17 May 2026 20:07:00 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"id\": 8,\n    \"dirrecionenvi\": \"comuna el bosque calle los aviadores 321\",\n    \"comprador\": \"fabian rojas\",\n    \"vendedor\": \"Leonardo\",\n    \"tiendaorigen\": \"nex dimenxion\",\n    \"detalleproducto\": \"10x Pokemon TCG: Chaos Rising – Elite Trainer Box – Inglés [PREVENTA: 22/05/2026] (Case Sellado) $579.990\",\n    \"empresadeenvio\": \"Repartidor propio\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Envio actualizar",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n        \"dirrecionenvi\": \"comuna el bosque calle los aviadores 321\",\r\n        \"comprador\": \"leo rojas\",\r\n        \"vendedor\": \"Leonardo\",\r\n        \"tiendaorigen\": \"nex dimenxion\",\r\n        \"detalleproducto\": \"10x Pokemon TCG: Chaos Rising – Elite Trainer Box – Inglés [PREVENTA: 22/05/2026] (Case Sellado) $579.990\",\r\n        \"empresadeenvio\": \"Repartidor propio\"\r\n        \r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "13.219.97.37:8081/api/v2/envios/7",
+          "host": [
+            "13",
+            "219",
+            "97",
+            "37"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "v2",
+            "envios",
+            "7"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Envio actualizar",
+          "originalRequest": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"dirrecionenvi\": \"comuna el bosque calle los aviadores 321\",\r\n        \"comprador\": \"leo rojas\",\r\n        \"vendedor\": \"Leonardo\",\r\n        \"tiendaorigen\": \"nex dimenxion\",\r\n        \"detalleproducto\": \"10x Pokemon TCG: Chaos Rising – Elite Trainer Box – Inglés [PREVENTA: 22/05/2026] (Case Sellado) $579.990\",\r\n        \"empresadeenvio\": \"Repartidor propio\"\r\n        \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "13.219.97.37:8081/api/v2/envios/8",
+              "host": [
+                "13",
+                "219",
+                "97",
+                "37"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "v2",
+                "envios",
+                "8"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Sun, 17 May 2026 20:07:28 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"id\": 8,\n    \"dirrecionenvi\": \"comuna el bosque calle los aviadores 321\",\n    \"comprador\": \"leo rojas\",\n    \"vendedor\": \"Leonardo\",\n    \"tiendaorigen\": \"nex dimenxion\",\n    \"detalleproducto\": \"10x Pokemon TCG: Chaos Rising – Elite Trainer Box – Inglés [PREVENTA: 22/05/2026] (Case Sellado) $579.990\",\n    \"empresadeenvio\": \"Repartidor propio\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Envio eliminar",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "13.219.97.37:8081/api/v2/envios/7",
+          "host": [
+            "13",
+            "219",
+            "97",
+            "37"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "v2",
+            "envios",
+            "7"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Envio eliminar",
+          "originalRequest": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "13.219.97.37:8081/api/v2/envios/8",
+              "host": [
+                "13",
+                "219",
+                "97",
+                "37"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "v2",
+                "envios",
+                "8"
+              ]
+            }
+          },
+          "status": "No Content",
+          "code": 204,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Date",
+              "value": "Sun, 17 May 2026 20:07:48 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": null
+        }
+      ]
+    }
+  ]
+}
